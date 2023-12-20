@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 107px;
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    justify-content: center;
+    align-items: center;
+}
+
+.botaosobre{
+    background: rgb(160, 7, 160);
+    padding: 10px;
+    color: rgb(219, 167, 230);
+    text-decoration: none;
+}
+
+.botaosobre:hover{
+    background: gray;
+}
+
+.menu{
+    flex: 70%;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+
+.menu a:hover{
+    color: rgb(255, 255, 255);
+}
+#botao{
+    background: rgb(154, 255, 157);
+    padding: 10px 25px;
+    color: rgb(13, 120, 36);
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#botao:hover{
+    border: none;
+    background-color: transparent;
+    border: 2px solid rgb(59, 254, 98);
+    color:rgb(59, 254, 98) ;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgb(59, 254, 98);
+    transition: all 0.2s ease-in-out;
+}
+
+.logo{
+    flex: 20%;
+    text-align: center;
+    margin-left: 10%;
+    font-size: 30px;
+}
+
+.logo h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    font-size: 25,02px;
+}
+
+.principal{
+    display: flex;
+    flex-flow: row wrap;
+    height: 700px;
+}
+
+.texto{
+    margin-left: 10%;
+    flex: 20%;
+    margin-top: 30px;
+    text-align:justify;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.texto h2{
+    font-weight: 900;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.texto p{
+    font-size: 20px;
+}
+
+.texto2 p{
+    font-size: 20px;
+}
+.texto2{
+    text-align:justify;
+    flex: 20%;
+    margin-top: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.imagem{
+    display: flex;
+    flex-flow: row wrap;
+    margin-right: 10%;
+    margin-left: 10%;
+    flex: 40%;
+    justify-content:center; 
+    margin-top: 5%;
+}
+
+.imagem2{
+    display: flex;
+    flex-flow: row wrap;
+    margin-right: 10%;
+    margin-left: 10%;
+    flex: 40%;
+    justify-content:center;
+    
+}
+
